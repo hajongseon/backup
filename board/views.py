@@ -36,7 +36,7 @@ class PostDetail(DetailView):
 
 def category_page(request, slug):
     if slug == 'no_category':
-        category = '미분류'
+        category = '잡담'
         post_list = Post.objects.filter(category=None)
     else:
         category = Category.objects.get(slug=slug)

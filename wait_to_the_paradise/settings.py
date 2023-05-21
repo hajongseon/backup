@@ -87,15 +87,16 @@ WSGI_APPLICATION = 'wait_to_the_paradise.wsgi.application'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'wtp',
-        'USER':'root',
-        'PASSWORD':'1234',
-        'HOST':'localhost',
-        'PORT':'3306',
+    "default": {
+        "ENGINE": 'django.db.backends.mysql',
+        "NAME": 'wtp',
+        "USER": 'kang',
+        "PASSWORD": 'dnjfdirhdrns^^169',
+        "HOST": '127.0.0.1',
+        "PORT": '3306',
     }
 }
+
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
